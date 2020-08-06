@@ -19,7 +19,7 @@ const queue = new Map();
 bot.on("warn", console.warn);
 bot.on("error", console.error);
 bot.on("ready", () => {console.log(`${bot.user.tag} has been successfully turned on!`)
-      bot.user.setActivity('&play')});
+      bot.user.setActivity('%play')});
 bot.on("disconnect", () => console.log("An error occurred, trying to reconnect!"));
 bot.on("reconnecting", () => console.log("I am reconnecting now..."));
 bot.on("message", async msg => { // eslint-disable-line

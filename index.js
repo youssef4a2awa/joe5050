@@ -43,7 +43,7 @@ __**Commands List**__
 > \`play OR p\` > **\`play (URL-Name)\`**
 > \`skip OR s\`, \`stop OR leave OR disconnect\`,  \`pause\`, \`resume\`
 > \`nowplaying\`, \`queue\`, \`volume\``)
-            .setFooter("©️ 2020 Pepo Development : Pepo", "https://app.zealcord.xyz/assets/Logo.png");
+            .setFooter("©️ 2020 Youssef Development : sha2awa", "https://app.zealcord.xyz/assets/Logo.png");
         msg.channel.send(helpembed);
     }
     if (command === "play" || command === "p") {
